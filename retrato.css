@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+
+
+header {
+
+    text-align: left;
+    padding: -110px;
+}
+
+nav {
+
+    height: 190px;
+    width: 130px;
+    padding-top: 40px;
+    padding-left: 106px;
+}
+
+article h1 {
+    font-size: 4em;
+}
+
+div.containerHeaderNav {
+    display: inline-block;
+    align-items: flex-start;
+    justify-content: center;                                
+}
