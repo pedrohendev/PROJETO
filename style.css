@@ -69,7 +69,3 @@ main article > a {
     border-radius: 7px;
     text-align: center;
 }
-
-main article > a:hover {
-    text-decoration: underline;
-}
