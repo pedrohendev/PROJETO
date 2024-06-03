@@ -16,14 +16,25 @@ body {
     background-size: cover;
 }
 
+header {
+    width: 500px;
+    box-sizing: border-box;
+}
+
 header h1 {
-    padding: 0px 0px 0px 110px;
+    padding: 0px 0px 0px 140px;   
+}
+
+nav {
+    width: 700px;
+    box-sizing: border-box;
 }
 
 nav a {
     text-decoration: none;
     color: black;
     padding-left: 36px;
+    transition: transform 0.3s;
 }
 
 nav a#log {
@@ -46,7 +57,7 @@ nav a:hover {
 }
 
 article h1 {
-    font-size: 5em;
+    font-size: 4em;
     text-align: justify;
     margin: 26px 26px 26px 26px;
 }
@@ -62,7 +73,7 @@ article a#Get {
     text-decoration: none;
     margin: 26px;
     padding: 7px 20px 7px 20px;
-
+    transition: transform 0.3s;
 }
 
 article a#Get:hover {
@@ -71,15 +82,20 @@ article a#Get:hover {
 
 div.containerHeaderNav {
     display: flex;
-    align-items: last baseline;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s;
     margin-bottom: 7px;
     margin-top: 20px;
 }
 
 div.containerArticle {
     display: flex;
-    align-items: last baseline;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
     justify-content: space-around;
     margin-top: 20px;
     margin-bottom: 20px;
