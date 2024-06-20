@@ -25,13 +25,14 @@ header h1 {
 nav {
     text-align: center;
     margin: 20px;
+    border: 2px solid black;
 }
 
 nav a {
     text-decoration: none;
     color: black;
-    padding: 0px 3px 0px 3px;
-    font-size: 0.9em;
+    padding: 3px;
+    font-size: 1.1em;
 }
 
 nav a#log {
@@ -73,4 +74,18 @@ main article > a {
     background-color: black;
     border-radius: 7px;
     text-align: center;
+}
+
+div.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-between;
+    align-items: space-between;
+
+}
+
+a.item {
+    flex: auto;
+    padding: 10px;
 }
