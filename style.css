@@ -76,7 +76,7 @@ main article > a {
     text-align: center;
 }
 
-div.container {
+div.containerNav {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
